@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "uberclone",
+    "slug": "uberclone",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.radevinicius.uberclone",
+      "config": {
+        "googleMapsApiKey": "AIzaSyCT0GvEqv6NkYw2WQG-j88GIRBO_WCIDkU"
+      }
+
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.radevinicius.uberclone",
+      "config" : {
+        "googleMaps": {
+          "apiKey": "AIzaSyCT0GvEqv6NkYw2WQG-j88GIRBO_WCIDkU" 
+        },
+        
+        "permission":["ACESS_COARSE_LOCATION", "ACESS_FINE_LOCATION","FOREGROUND_SERVICE" ]
+        
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
